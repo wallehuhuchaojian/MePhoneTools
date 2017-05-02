@@ -1,0 +1,10 @@
+@startuml
+(*)--> if "激活状态 " then
+-->[true] " 激活"
+
+else
+-->[false]"未激活"
+endif
+
+
+@enduml
